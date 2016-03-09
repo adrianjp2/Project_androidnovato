@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.app.project.general">
+
+    <TextView
+        android:id="@+id/dd"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ff03a9f4"
+        android:elevation="40dp"
+        android:text="hhdhdhdhdh hdhdhhdh"/>
+
+    <ImageView
+        android:layout_below="@+id/dd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:src="@drawable/equipo"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

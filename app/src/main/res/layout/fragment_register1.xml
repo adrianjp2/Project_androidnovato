@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:paddingTop="80dp"
+    tools:context="com.app.project.register1">
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+
+        android:id="@+id/uno1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blanco"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="#B0BEC5" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#B0BEC5"/>
+
+    <EditText
+        android:id="@+id/dos2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#ECEFF1"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColorHint="#B0BEC5" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#B0BEC5"/>
+
+    <EditText
+        android:id="@+id/tres3"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#ECEFF1"
+        android:hint="Contrasena"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#B0BEC5" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#B0BEC5"/>
+
+    <EditText
+        android:id="@+id/cuatro4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#ECEFF1"
+        android:hint="Confirmar Contrasena"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#B0BEC5" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#B0BEC5"/>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/blanco2"
+        android:text="Guardar"
+        android:onClick="saveuser"/>
+
+</LinearLayout>

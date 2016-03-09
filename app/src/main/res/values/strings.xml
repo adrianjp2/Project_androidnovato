@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="hola_mundo">Hello World :D!</string>
+    <string name="nombre">Nombre</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="title_activity_saludos">saludos</string>
+    <string name="volver">Volver</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Codigo">Codigo</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="precio">precio</string>
+    <string name="registrar">Registrar</string>
+    <string name="consultacodigo">Consultar por codigo</string>
+    <string name="consultardes">Consultar por descrip</string>
+    <string name="bajacodigo">Baja por codigo</string>
+    <string name="modificar">Modificar</string>
+    <string name="add">add</string>
+    <string name="search">search</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="action_settings">setting</string>
+    <string name="ree">Registrar un Mundo</string>
+    <string name="Mejorar">mejorar</string>
+    <string name="NuevoMundo">Nuevo Mundo</string>
+    <string name="usuario">usuario</string>
+    <string name="seccion_1">Registro</string>
+    <string name="seccion_2">Jugar</string>
+    <string name="seccion_3">profile</string>
+    <string name="otras_opciones">Opciones</string>
+    <string name="opcion_1">1</string>
+    <string name="opcion_2">2</string>
+    <string name="Eliminar">Eliminar</string>
+</resources>

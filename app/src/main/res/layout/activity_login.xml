@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.app.project.login">
+
+    <LinearLayout android:id="@+id/uno"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center_horizontal">
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/logo1"/>
+    </LinearLayout>
+    <TextView
+        android:typeface="serif"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Session"
+
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#000000"
+        android:id="@+id/dos"
+        />
+    <EditText
+        android:background="@drawable/ovalo"
+        android:id="@+id/tres"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/dos"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Usuario o Email"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:singleLine="true"/>
+    <EditText
+        android:background="@drawable/ovalo"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:id="@+id/cuatro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tres"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Contrasena"
+        android:gravity="center"
+        android:textColorHint="#000"/>
+    <TextView
+        android:id="@+id/cinco"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:typeface="sans"
+        android:clickable="true"
+        android:onClick="newuser"
+        android:layout_below="@+id/cuatro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No estas Registrado Registrate Aqui"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Entrar"
+            android:background="@drawable/border"
+
+            android:onClick="entrar"/>
+    </LinearLayout>
+</RelativeLayout>

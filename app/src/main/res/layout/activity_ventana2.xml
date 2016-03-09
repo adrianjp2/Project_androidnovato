@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/appbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <LinearLayout
+        android:layout_below="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.app.project.ventana2">
+
+        <!--<fragment-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:name="com.app.project.fracmento"-->
+            <!--android:id="@+id/fragment"-->
+            <!--tools:layout="@layout/fragment_fracmento" />-->
+        <!--<ImageButton-->
+            <!--android:layout_width="46dp"-->
+            <!--android:layout_height="72dp"-->
+            <!--android:id="@+id/imageButton"-->
+            <!--android:layout_gravity="center_horizontal|top"-->
+            <!--android:adjustViewBounds="false"-->
+            <!--android:src="@drawable/abc_btn_rating_star_on_mtrl_alpha"-->
+            <!--android:onClick="jose"-->
+            <!--android:nestedScrollingEnabled="false" />-->
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="1dp"
+            android:src="@drawable/equipo"
+            />
+
+       <android.support.v4.view.ViewPager
+           android:id="@+id/pager"
+
+           android:layout_width="wrap_content"
+           android:layout_height="270dp">
+
+       </android.support.v4.view.ViewPager>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:onClick="lolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+
+                android:id="@+id/radio1"
+                android:onClick="radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:onClick="radio2"
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:onClick="radio3"
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:onClick="radio4"
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <!--<EditText-->
+            <!--android:id="@+id/texto1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="@string/aceptar"-->
+            <!--/>-->
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#5dbbe7"
+            android:text="@string/aceptar" />
+
+        <Button
+            android:id="@+id/id1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#5dbbe7"
+            android:text="@string/title_activity_saludos" />
+
+    </LinearLayout>
+
+</RelativeLayout>

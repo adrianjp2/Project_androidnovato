@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sexo">
+        <item>Sexo</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Indefinido</item>
+    </string-array>
+    <string-array name="pais">
+        <item>Pais</item>
+        <item>Venezuela</item>
+        <item>Colombia</item>
+        <item>Chile</item>
+    </string-array>
+</resources>

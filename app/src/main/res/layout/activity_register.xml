@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.app.project.register"
+    android:background="#2196F3"
+    >
+
+
+
+
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:id="@id/uno"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:onClick="cancel"
+        android:text="Cancel"/>
+    <TextView
+        android:layout_marginTop="26dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dos"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Registrar"
+        android:textSize="25dp"
+        android:textColor="#CFD8DC"/>
+    <View
+        android:id="@+id/tres"
+        android:layout_below="@id/dos"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff">
+    </View>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:background="#2196F3"
+     android:layout_below="@id/tres"
+     android:gravity="center_horizontal">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@android:color/white" />
+ </LinearLayout>
+</RelativeLayout>

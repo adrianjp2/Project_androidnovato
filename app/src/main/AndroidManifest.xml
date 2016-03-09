@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- <activity android:name=".registronew"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- <activity android:name=".ventana2"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".splas" />
+        <activity
+            android:name=".saludos"
+            android:label="@string/title_activity_saludos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ventana2" />
+        <!-- <activity android:name=".registronew" /> -->
+        <activity
+            android:name=".tres"
+            android:label="@string/Mejorar"
+            android:parentActivityName=".ventana2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.project.ventana2" />
+        </activity>
+        <activity
+            android:name=".cinco"
+            android:label="@string/NuevoMundo"
+            android:parentActivityName=".ventana2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.project.ventana2" />
+        </activity>
+        <activity android:name=".navigation" />
+        <activity android:name=".galery" />
+        <activity android:name=".imagealone" />
+        <!-- <activity android:name=".login"></activity> -->
+        <activity android:name=".register"></activity>
+    </application>
+
+</manifest>

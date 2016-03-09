@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.project.register2">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="#B0BEC5"
+        android:background="#ECEFF1"
+        android:hint="Nombre"
+        android:singleLine="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#B0BEC5"></View>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="#B0BEC5"
+        android:background="#ECEFF1"
+        android:hint="Apellido"
+        android:singleLine="true"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#B0BEC5"></View>
+    <Spinner
+
+        android:background="#ECEFF1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/sexo"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#B0BEC5"></View>
+    <Spinner
+
+        android:background="#ECEFF1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/pais"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#B0BEC5"></View>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ECEFF1"
+        android:text="Guardar"/>
+</LinearLayout>
+</FrameLayout>
